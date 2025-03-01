@@ -1,0 +1,26 @@
+Difference Between Static Memory and Dynamic Array in C
+Feature	Static Memory Allocation	Dynamic Memory Allocation
+Memory Location	Allocated on stack	Allocated on heap
+Size	Fixed at compile-time	Flexible, determined at runtime
+Allocation Method	Done automatically by the compiler	Done using malloc(), calloc(), or realloc()
+Deallocation	Automatic when function/block ends	Manual using free()
+Efficiency	Faster (stack memory is faster)	Slightly slower due to heap management overhead
+Memory Waste	Can waste memory if allocated size is too large	Efficient as it allocates exact memory needed
+Risk of Memory Leak	No memory leaks	Possible if free() is not called after use
+Usage	Used when array size is known beforehand	Used when size is unknown or varies at runtime
+Example of Static Memory Allocation
+c
+Copy
+Edit
+#include <stdio.h>
+
+int main() {
+    int arr[5] = {1, 2, 3, 4, 5};  // Statically allocated array
+
+    printf("Static Array Elements: ");
+    for (int i = 0; i < 5; i++) {
+        printf("%d ", arr[i]);
+    }
+
+    return 0;
+}
