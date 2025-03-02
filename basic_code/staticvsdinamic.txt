@@ -24,3 +24,16 @@ int main() {
 
     return 0;
 }
+imp
+Summary
+RAM Section	Purpose
+Code Segment (.text)	Stores executable machine code
+Read-Only Data (.rodata)	Stores constants and string literals
+Initialized Data (.data)	Stores global/static initialized variables
+Uninitialized Data (.bss)	Stores global/static uninitialized variables
+Heap	Used for dynamic memory allocation (malloc, new)
+Stack	Stores function calls, return addresses, local variables
+Page Table	Maps virtual memory to physical RAM
+Cache Memory	Fast memory inside CPU for frequently used data
+Buffers & Disk Cache	Temporarily stores disk and network data
+Memory-Mapped I/O (MMIO)	Used for hardware communication (GPU, USB, etc.)
