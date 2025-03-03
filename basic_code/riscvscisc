@@ -1,0 +1,12 @@
+| Feature            | RISC (Reduced Instruction Set Computing) | CISC (Complex Instruction Set Computing) |
+|--------------------|--------------------------------|--------------------------------|
+| **Instruction Set** | Small, simple instructions | Large, complex instructions |
+| **Execution Speed** | Faster, as instructions take one or few clock cycles | Slower, as complex instructions take multiple cycles |
+| **Instruction Length** | Fixed and uniform | Variable |
+| **Memory Usage** | More instructions, but simpler and use less memory | Fewer instructions, but complex ones take more memory |
+| **Registers** | More registers, reducing memory access | Fewer registers, relying on memory more often |
+| **Microcode Usage** | Hardwired control (no microcode) | Uses microcode for complex instruction decoding |
+| **Code Size** | Larger due to more instructions | Smaller as fewer, more powerful instructions are used |
+| **Pipelining** | Easier to implement | Difficult due to variable-length instructions |
+| **Power Consumption** | Lower | Higher |
+| **Example Architectures** | ARM, MIPS, PowerPC, RISC-V | x86, Intel 8086, Motorola 68000 |
