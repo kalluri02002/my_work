@@ -1,0 +1,25 @@
+1.what is use of pointer ?
+  1.which stores the address of anther variable
+  2.Pointers are used to allocate memory dynamically using functions like malloc(), calloc(), and free().
+  3. allowing function callbacks.
+  4.Pointers help in efficient structure handling, especially when dealing with linked lists and trees.
+  5.Passing Arguments by Reference and string manipulation.
+2
+Here is the difference between C and Embedded C:
+
+Feature	C Language	Embedded C
+Definition	A general-purpose programming language used for software development.	A specialized version of C designed for programming embedded systems.
+Target System	Used for desktops, servers, and application software.	Used for microcontrollers, microprocessors, and embedded devices.
+Standard Libraries	Uses standard libraries like <stdio.h>, <stdlib.h>.	Uses hardware-specific libraries like <reg51.h> for microcontroller registers.
+Memory Management	Uses dynamic memory allocation (e.g., malloc, free).	Limited or no dynamic memory allocation due to constrained resources.
+OS Dependency	Runs on an operating system like Windows, Linux, etc.	Runs without an OS, directly on hardware.
+I/O Operations	Uses standard input/output functions like printf(), scanf().	Uses direct register access or GPIO functions for hardware interaction.
+Optimization	Focuses on performance and readability.	Optimized for speed, memory efficiency, and power consumption.
+Application	Used in software development, data structures, algorithms, etc.	Used in embedded systems like IoT devices, automotive systems, and industrial machines.
+Code Execution	Runs on processors with high processing power.	Runs on microcontrollers with limited processing power.
+ 
+ 3 .Use of #include in C and Embedded C
+The #include directive in C and Embedded C is used to include header files in a program. It allows the compiler to use functions, macros, and constants defined in external files.
+<> for standard 
+"" local files
+preprocessor directive 
