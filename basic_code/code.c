@@ -5,7 +5,7 @@ int main() {
     int* ptr1 = arr;   // Pointer to the first element
     int* ptr2 = arr + 5;  // Pointer to the 6th element
     
-    printf("%d\n", ptr2 - ptr1);  // Difference in terms of elements
+    printf("%ld\n", ptr2 - ptr1);  // Difference in terms of elements
     printf("%ld\n", (char*)ptr2 - (char*)ptr1);  // Difference in terms of bytes
 
     return 0;
